@@ -1,0 +1,85 @@
+:root {
+    --body-background: #282828;
+    --nav-background: #3c3836;
+    --nav-hover: #fbf1c7;
+    --nav-link: #ebdbb2;
+    --nav-active-background: #689d6a;
+    --text-default: #f9f5d7;
+    --title: #d79921;
+    --subtitle: #458588;
+    --shadow: #d5c4a1;
+    --button: #8f3f71;
+    --button-hover: #b16286;
+    --story-name: #cc241d;
+    --button-background: #3c3836;
+}
+
+body {
+    background-color: var(--body-background);
+}
+
+.navbar {
+    background-color: var(--nav-background);
+    overflow: hidden;
+    border-radius: 0.2em 0.2em;
+}
+
+.navbar a {
+    float: left;
+    color: var(--nav-link);
+    text-align: center;
+    padding: 0.7em 0.7em;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar a:hover {
+    color: var(--nav-hover);
+}
+
+.navbar a.navbar-active {
+    background-color: var(--nav-active-background);
+}
+
+.hz-space {
+    width: 100%;
+    padding-top: 1em;
+}
+
+.text {
+    color: var(--text-default);
+}
+
+.text.title {
+    font-size: 3em;
+    color: var(--title);
+}
+
+.text.subtitle {
+    font-size: 2em;
+    color: var(--subtitle);
+}
+
+.text.normal {
+    
+}
+
+.text.story-name {
+    font-size: 2em;
+    color: var(--story-name);
+}
+
+.text.small {
+    font-size: 0.8em;
+}
+
+.button {
+    color: var(--button);
+    //background-color: var(--button-background);
+    border-radius: 0.2em 0.2em;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: var(--button-hover);
+}
