@@ -1,16 +1,17 @@
 :root {
-    --body-background: #282828;
-    --nav-background: #3c3836;
+    --body-background: #1d2021;
+    --nav-background: #282828;
     --nav-hover: #fbf1c7;
     --nav-link: #ebdbb2;
     --nav-active-background: #689d6a;
     --text-default: #f9f5d7;
-    --title: #d79921;
-    --subtitle: #458588;
+    --title: #fabd2f;
+    --subtitle: #83a598;
+    --subsubtitle: #8ec07c;
     --shadow: #d5c4a1;
-    --button: #8f3f71;
-    --button-hover: #b16286;
-    --story-name: #cc241d;
+    --button-hover: #8f3f71;
+    --button: #b16286;
+    --story-name: #fabd2f;
     --button-background: #3c3836;
 }
 
@@ -31,6 +32,7 @@ body {
     padding: 0.7em 0.7em;
     text-decoration: none;
     font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar a:hover {
@@ -48,6 +50,7 @@ body {
 
 .text {
     color: var(--text-default);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .text.title {
@@ -58,6 +61,11 @@ body {
 .text.subtitle {
     font-size: 2em;
     color: var(--subtitle);
+}
+
+.text.subsubtitle {
+    font-size: 1.5em;
+    color: var(--subsubtitle);
 }
 
 .text.normal {
@@ -75,11 +83,14 @@ body {
 
 .button {
     color: var(--button);
-    //background-color: var(--button-background);
     border-radius: 0.2em 0.2em;
     text-decoration: none;
 }
 
 .button:hover {
     color: var(--button-hover);
+}
+
+.indent {
+    padding-left: 1em;
 }
