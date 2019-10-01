@@ -8,6 +8,7 @@
     --title: #fabd2f;
     --subtitle: #83a598;
     --subsubtitle: #8ec07c;
+    --subsubtitle-hover: #689d6a;
     --shadow: #d5c4a1;
     --button-hover: #8f3f71;
     --button: #b16286;
@@ -71,6 +72,7 @@ body {
 .text {
     color: var(--text-default);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 .text.title {
@@ -95,6 +97,10 @@ body {
 .text.subsubtitle {
     font-size: 1.5em;
     color: var(--subsubtitle);
+}
+
+.text.subsubtitle:hover {
+    color: var(--subsubtitle-hover);
 }
 
 .text.normal {
