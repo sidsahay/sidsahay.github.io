@@ -33,9 +33,6 @@ section {
     box-sizing: border-box;
 }
 
-/* article {
-    padding: 0rem 1rem 0rem 0rem;
-} */
 .navbar {
     background-color: var(--nav-background);
     overflow: hidden;
@@ -73,9 +70,6 @@ section {
     margin: 0;
 }
 
-.border-right {
-    //border-right: 1px solid var(--border);
-}
 .text.title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3rem;
@@ -127,5 +121,9 @@ section {
 
 .indent {
     padding-left: 1rem;
+}
+
+.indent2 {
+    padding-left: 2rem;
 }
 
