@@ -14,6 +14,7 @@
     --button: #b16286;
     --story-name: #fabd2f;
     --button-background: #3c3836;
+    --border: #3c3836;
 }
 
 img {
@@ -28,9 +29,14 @@ body {
 }
 
 section {
-    margin: 0rem 1rem 0rem 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    width: 100vmin;
+    box-sizing: border-box;
 }
 
+article {
+    padding: 0rem 1rem 0rem 0rem;
+}
 .navbar {
     background-color: var(--nav-background);
     overflow: hidden;
@@ -68,6 +74,9 @@ section {
     margin: 0;
 }
 
+.border-right {
+    border-right: 1px solid var(--border);
+}
 .text.title {
     font-size: 3rem;
     color: var(--title);
