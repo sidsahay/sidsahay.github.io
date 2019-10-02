@@ -30,13 +30,12 @@ body {
 
 section {
     padding: 0rem 1rem 0rem 1rem;
-    width: 100vmin;
     box-sizing: border-box;
 }
 
-article {
+/* article {
     padding: 0rem 1rem 0rem 0rem;
-}
+} */
 .navbar {
     background-color: var(--nav-background);
     overflow: hidden;
@@ -75,7 +74,7 @@ article {
 }
 
 .border-right {
-    border-right: 1px solid var(--border);
+    //border-right: 1px solid var(--border);
 }
 .text.title {
     font-size: 3rem;
