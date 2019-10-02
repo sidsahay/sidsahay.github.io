@@ -23,6 +23,8 @@ img {
 
 body {
     background-color: var(--body-background);
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -62,8 +64,8 @@ section {
     color: var(--text-default);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    padding: 0rem 0rem;
-    margin: 0rem 0rem;
+    padding: 0;
+    margin: 0;
 }
 
 .text.title {
