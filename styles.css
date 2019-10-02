@@ -21,23 +21,9 @@ img {
     width: 4rem;
 }
 
-/* @media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
-	only screen and (-o-min-device-pixel-ratio: 13/10),
-	only screen and (min-resolution: 120dpi)
-	{
-		:root {
-            font-size: 2.5rem;
-        }
-
-        img {
-            height: 3rem;
-            width: 3rem;
-        }
-        
-	} */
-
-body {
+.page {
     background-color: var(--body-background);
+    margin: 0rem 1rem 0rem 1rem;
 }
 
 .navbar {
@@ -80,15 +66,6 @@ body {
     color: var(--title);
 }
 
-/* @media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
-	only screen and (-o-min-device-pixel-ratio: 13/10),
-	only screen and (min-resolution: 120dpi)
-	{
-		.text.title {
-            font-size: 2rem;
-        }
-    } */
-
 .text.subtitle {
     font-size: 2rem;
     color: var(--subtitle);
@@ -129,3 +106,4 @@ body {
 .indent {
     padding-left: 1rem;
 }
+
