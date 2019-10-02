@@ -89,6 +89,10 @@ section {
     
 }
 
+.text.normal.bottompad {
+    padding-bottom: 1rem;
+}
+
 .text.story-name {
     font-size: 2rem;
     color: var(--story-name);
