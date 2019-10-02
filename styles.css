@@ -17,24 +17,24 @@
 }
 
 img {
-    height: 4em;
-    width: 4em;
+    height: 4rem;
+    width: 4rem;
 }
 
-@media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
+/* @media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
 	only screen and (-o-min-device-pixel-ratio: 13/10),
 	only screen and (min-resolution: 120dpi)
 	{
 		:root {
-            font-size: 2.5em;
+            font-size: 2.5rem;
         }
 
         img {
-            height: 3em;
-            width: 3em;
+            height: 3rem;
+            width: 3rem;
         }
         
-	}
+	} */
 
 body {
     background-color: var(--body-background);
@@ -43,16 +43,16 @@ body {
 .navbar {
     background-color: var(--nav-background);
     overflow: hidden;
-    border-radius: 0.2em 0.2em;
+    border-radius: 0.2rem 0.2rem;
 }
 
 .navbar a {
     float: left;
     color: var(--nav-link);
     text-align: center;
-    padding: 0.7em 0.7em;
+    padding: 0.7rem 0.7rem;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .hz-space {
     width: 100%;
-    padding-top: 1em;
+    padding-top: 1rem;
 }
 
 .text {
@@ -76,26 +76,26 @@ body {
 }
 
 .text.title {
-    font-size: 3em;
+    font-size: 3rem;
     color: var(--title);
 }
 
-@media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
+/* @media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
 	only screen and (-o-min-device-pixel-ratio: 13/10),
 	only screen and (min-resolution: 120dpi)
 	{
 		.text.title {
-            font-size: 2em;
+            font-size: 2rem;
         }
-    }
+    } */
 
 .text.subtitle {
-    font-size: 2em;
+    font-size: 2rem;
     color: var(--subtitle);
 }
 
 .text.subsubtitle {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: var(--subsubtitle);
 }
 
@@ -108,17 +108,17 @@ body {
 }
 
 .text.story-name {
-    font-size: 2em;
+    font-size: 2rem;
     color: var(--story-name);
 }
 
 .text.small {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
     
 .button {
     color: var(--button);
-    border-radius: 0.2em 0.2em;
+    border-radius: 0.2rem 0.2rem;
     text-decoration: none;
 }
 
@@ -127,5 +127,5 @@ body {
 }
 
 .indent {
-    padding-left: 1em;
+    padding-left: 1rem;
 }
